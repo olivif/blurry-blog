@@ -10,9 +10,15 @@ ul {
 
 ul li.socialItem {
 	display: inline-block;
-	width: 30px;
-	height: 30px;
-    margin: auto;
+    width: 18px;
+    height: 23px;
+    margin-top: 1.5em;
+    padding: 6px 11px 9px 10px;
+
+	border: 1px solid black;
+	border-radius: 20px;
+	:hover {
+	}
 }
 
 ul.socialItem-list {
@@ -27,14 +33,33 @@ ul.socialItem-list {
 }
 
 // main
+.divider {
+	height:1px;
+	border-bottom:1px solid rgba(114, 118, 124, 0.2);
+	width: 60%;
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+
+.divider-big {
+	width: 60%;
+}
+
+.divider-small {
+	width: 25%;
+}
+
 .main-title {
 	display: block;
   	text-align: center;
+	padding-top: 4.5em;
 }
 
 .main-subtitle {
 	display: block;
   	text-align: center;
+	padding-top: 1.5em;
 }
 
 // home
@@ -61,4 +86,9 @@ ul.socialItem-list {
 	-o-filter: blur(5px);
 	-ms-filter: blur(5px);
 	filter: blur(5px);
+}
+
+// blog
+.blog {
+	display: none;
 }
