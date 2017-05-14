@@ -1,0 +1,24 @@
+<nav class="cover-navigation navigation--social">
+
+	<ul class="navigation">
+
+		<!--social links-->
+		{% for socialItem in site.social %}
+		<li class="navigation__item">
+			<a href="{{ socialItem.link }}" title="{{ socialItem.name }}" target="_blank">
+				<i class="fa fa-{{ socialItem.name }} fa-lg"></i>
+				<span class="label">{{ socialItem.name }}</span>
+			</a>
+		</li>
+		{% endfor %}
+
+		<!--blog-->
+		<li class="navigation__item blog_nav">
+			<a href="{{ site.baseurl }}#blog" title="blog" class="blog-button">
+				<i class="fa fa-pencil fa-lg"></i>
+				<span class="label">blog</span> blog
+			</a>
+		</li>
+	</ul>
+
+</nav>
