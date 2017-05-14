@@ -1,6 +1,36 @@
 // general
+ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+ul li.socialItem {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+    margin: auto;
+}
+
+ul.socialItem-list {
+  	text-align: center;
+	display: block;
+	width: 100%;
+	float: left;
+}
+
 .page-content {
     padding: 0;
+}
+
+// main
+.main-title {
+	display: block;
+  	text-align: center;
+}
+
+.main-subtitle {
+	display: block;
+  	text-align: center;
 }
 
 // home
