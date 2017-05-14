@@ -35,6 +35,11 @@ ul.socialItem-list {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#b3ffffff',GradientType=0 );
 }
 
+.center {
+	display: block;
+	text-align: center;
+}
+
 // general layout
 .main-panel,
 .main-panel-header,
@@ -114,4 +119,8 @@ ul.socialItem-list {
 .post {
 	padding-top: 4.5em;
 	height:100vh;
+}
+
+.post-list {
+	padding-top: 40px;
 }

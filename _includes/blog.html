@@ -1,10 +1,10 @@
 <div class="blog-panel">
 
-	<h1 class="page-heading">Posts</h1>
+	<div class="divider divider-big"></div>
+	<p class="main-subtitle">Posts</p>
+	<div class="divider divider-small"></div>
 
-	{{ content }}
-
-	<ul class="post-list">
+	<ul class="post-list center">
 		{% for post in site.posts %}
 		<li>
 			{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
