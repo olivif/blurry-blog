@@ -1,5 +1,5 @@
-title: William Johnson
-email: william.johnson@me.com
+title: Frank Abagnale
+email: Frank.Abagnale@me.com
 description: Catch me if you can.
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -8,13 +8,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 social: 
   - twitter:
     name: twitter
-    link: https://twitter.com/olly2204
+    link: https://twitter.com/
   - github:
     name: github
-    link: https://github.com/olivif
+    link: https://github.com/
   - linkedin:
     name: linkedin
-    link: https://www.linkedin.com/in/oliviaifrim/
+    link: https://www.linkedin.com/
     
 # Build settings
 markdown: kramdown
