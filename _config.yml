@@ -15,7 +15,9 @@ social:
   - linkedin:
     name: linkedin
     link: https://www.linkedin.com/
-    
+
+blog: true
+
 # Build settings
 markdown: kramdown
 theme: minima

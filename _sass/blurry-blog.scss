@@ -10,7 +10,6 @@ ul {
 
 ul li.socialItem {
 	display: inline-block;
-    width: 18px;
     height: 23px;
     margin-top: 1.5em;
     padding: 6px 11px 9px 10px;
@@ -32,7 +31,22 @@ ul.socialItem-list {
     padding: 0;
 }
 
+// general layout
+.main-panel,
+.main-panel-header,
+.main-panel-nav,
+.blog-panel {
+	width: 100%;
+	height: 100%;
+	display: block;
+	float: left;
+}
+
 // main
+.main-panel {
+	margin-bottom: 25em;
+}
+
 .divider {
 	height:1px;
 	border-bottom:1px solid rgba(114, 118, 124, 0.2);
@@ -89,6 +103,6 @@ ul.socialItem-list {
 }
 
 // blog
-.blog {
-	display: none;
+.blog-panel {
+	margin-bottom: 7em;
 }
