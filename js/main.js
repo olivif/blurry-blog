@@ -8,7 +8,7 @@
             console.log("got here");
 
             $('html,body').animate({
-                scrollTop: $(".blog").offset().top
+                scrollTop: $(".blog-panel").offset().top
             },
                 'slow');
 

@@ -31,7 +31,7 @@ ul.socialItem-list {
     padding: 0;
 }
 
-// main
+// general layout
 .main-panel,
 .main-panel-header,
 .main-panel-nav,
@@ -40,6 +40,11 @@ ul.socialItem-list {
 	height: 100%;
 	display: block;
 	float: left;
+}
+
+// main
+.main-panel {
+	margin-bottom: 25em;
 }
 
 .divider {
@@ -99,4 +104,5 @@ ul.socialItem-list {
 
 // blog
 .blog-panel {
+	margin-bottom: 7em;
 }
